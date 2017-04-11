@@ -18,18 +18,22 @@ typedef long double ld;
 
 // Do all the work for the code jam problem here.
 // Write the answer to a test case.
+///////////////////////////////////////////////////
+#define filein "D-small-attempt0.in"
+#define fileout "D.out"
 void solve()
     {
 
     }
+///////////////////////////////////////////////////
 
 // Program begins here. Handles writing "Case #: "
 int main()
     {
     // Handle reading and writing to file.
     //freopen("C-small-practice.in", "r", stdin);
-    freopen("C-large-practice.in", "r", stdin);
-    freopen("C.out", "w", stdout);
+    freopen(filein, "r", stdin);
+    freopen(fileout, "w", stdout);
 
     int tt; cin >> tt;
     for(int t = 1; t <= tt; t++)
